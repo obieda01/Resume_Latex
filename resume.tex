@@ -1,0 +1,94 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{ceruleanblue}
+%\definecolor{awesome}{HTML}{CA63A8}
+%\definecolor{awesome}{rgb}{0.16, 0.32, 0.75}
+%\definecolor{awesome}{rgb}{0.2, 0.07, 0.48}
+%\definecolor{awesome}{rgb}{0.36, 0.54, 0.66}
+%\definecolor{awesome}{rgb}{0.57, 0.0, 0.04}
+
+%\definecolor{awesome}{rgb}{0.15, 0.38, 0.61}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     3rd party packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Needed to divide into several files
+\usepackage{import}
+\usepackage{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Ahmad}{Obiedat}
+\address{Columbus, Ohio}
+\mobile{646-236-4991} 
+%%% Social
+\email{obiedatdeveloper@gmail.com}
+\github{GitHub/obieda01}
+\linkedin{ahmadobie}
+%%% Optionals
+\position{Software Engineer}
+%%\quote{``Make the change that you want to see in the world."}
+\quote{“The simpler you say it, the more eloquent it is.” - August Wilson}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter 
+  {}
+ { \vspace{-10mm} Ahmad Obiedat~~~·~~~Résumé}
+  {\vspace{-10mm}\thepage }
+
+\begin{document}
+%%% Make a header for CV with personal data
+\makecvheader
+
+%%% Import contents
+\vspace{-4mm}
+\import{\sectiondir}{Summary.tex}
+\vspace{-8mm}
+\import{\sectiondir}{skills.tex}
+\vspace{-4mm}
+\import{\sectiondir}{experience.tex}
+\vspace{-6mm}
+\import{\sectiondir}{education.tex}
+\vspace{-5mm}
+\import{\sectiondir}{Certifications.tex}
+\vspace{-5mm}
+\import{\sectiondir}{projects.tex}
+
+%%\vspace{-5mm}
+\end{document}
