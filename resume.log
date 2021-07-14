@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.20)  12 JUL 2021 12:45
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.20)  12 JUL 2021 12:57
  restricted system commands enabled.
 **resume.tex
 (./resume.tex
@@ -1063,24 +1063,23 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 19529 strings out of 478081
- 156366,953878 words of node,token memory allocated
+ 19527 strings out of 478081
+ 156364,953878 words of node,token memory allocated
  624 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 80 glue_spec,
  6 attribute_list, 1 write nodes
-   avail lists: 1:1,2:2705,3:871,4:982,5:1689,6:327,7:12603,8:45,9:2239,10:24,11
-:664
- 39235 multiletter control sequences out of 65536+600000
- 86 fonts using 22446231 bytes
+   avail lists: 1:1,2:2689,3:868,4:976,5:1671,6:324,7:12372,8:45,9:2233,10:24,11
+:652
+ 39233 multiletter control sequences out of 65536+600000
+ 84 fonts using 21997855 bytes
  113i,11n,114p,822b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
 <./fonts/SourceSansPro-LightIt.otf><./fonts/SourceSansPro-Semibold.otf><./fonts/
-SourceSansPro-Light.otf><./fonts/SourceSansPro-Bold.otf><./fonts/SourceSansPro-I
-t.otf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.otf><./fonts/Roboto-Itali
-c.ttf><./fonts/SourceSansPro-Regular.otf><./fonts/Roboto-Bold.ttf><./fonts/Robot
-o-Thin.ttf>
-Output written on resume.pdf (1 page, 62545 bytes).
+SourceSansPro-Light.otf><./fonts/SourceSansPro-Bold.otf><./fonts/Roboto-Regular.
+ttf><./fonts/FontAwesome.otf><./fonts/Roboto-Italic.ttf><./fonts/SourceSansPro-R
+egular.otf><./fonts/Roboto-Bold.ttf><./fonts/Roboto-Thin.ttf>
+Output written on resume.pdf (1 page, 58602 bytes).
 
-PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
