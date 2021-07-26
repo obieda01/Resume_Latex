@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.20)  17 JUL 2021 14:48
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.6.20)  25 JUL 2021 22:29
  restricted system commands enabled.
 **resume.tex
 (./resume.tex
@@ -1014,7 +1014,7 @@ LaTeX Info: Redefining \nameref on input line 75.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 14.
+t line 13.
 ) (./resume/skills.tex
 Overfull \hbox (18.97412pt too wide) in alignment at lines 2--9
 [] []
@@ -1035,7 +1035,7 @@ Overfull \hbox (4.86179pt too wide) in paragraph at lines 8--21
    [] 
  []
 
-) (./resume/Certifications.tex
+) (./resume/projects.tex) (./resume/Certifications.tex
 Overfull \hbox (4.86179pt too wide) in paragraph at lines 8--28
    [] 
  []
@@ -1050,29 +1050,30 @@ Overfull \hbox (4.86179pt too wide) in paragraph at lines 8--28
    [] 
  []
 
-) (./resume/projects.tex) [1
+) [1
 
-{C:/Users/alakm/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (./resume.aux)
+{C:/Users/alakm/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
  19527 strings out of 478081
- 156364,953878 words of node,token memory allocated
+ 156366,953878 words of node,token memory allocated
  624 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 80 glue_spec,
  6 attribute_list, 1 write nodes
-   avail lists: 1:3,2:2565,3:868,4:916,5:1887,6:315,7:13512,8:45,9:2119,10:28,11
-:817
+   avail lists: 1:2,2:2461,3:844,4:880,5:1920,6:300,7:13239,8:45,9:1996,10:28,11
+:799
  39233 multiletter control sequences out of 65536+600000
- 84 fonts using 21997855 bytes
- 113i,11n,114p,764b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84 fonts using 21997735 bytes
+ 113i,11n,114p,764b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 <./fonts/SourceSansPro-LightIt.otf><./fonts/SourceSansPro-Semibold.otf><./fonts/
 SourceSansPro-Light.otf><./fonts/SourceSansPro-Bold.otf><./fonts/Roboto-Regular.
 ttf><./fonts/FontAwesome.otf><./fonts/Roboto-Italic.ttf><./fonts/SourceSansPro-R
 egular.otf><./fonts/Roboto-Bold.ttf><./fonts/Roboto-Thin.ttf>
-Output written on resume.pdf (1 page, 58483 bytes).
+Output written on resume.pdf (1 page, 58669 bytes).
 
 PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 131072)
